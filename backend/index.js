@@ -6,7 +6,7 @@ const { dbConnect } = require("./db/dbConnect");
 dbConnect();
 const app = express();
 app.use(express.json());
-app.use(cors());
+app.use(cors({ origin: "https://fitness-app-sooty-psi.vercel.app" }));
 
 app.use((req, res, next) => {
   console.log(`Request Received: ${req.method} ${req.url}`);
