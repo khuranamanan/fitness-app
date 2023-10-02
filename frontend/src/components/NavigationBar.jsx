@@ -6,11 +6,11 @@ export default function NavigationBar() {
 
   return (
     <nav className="bg-blue-500 p-4">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex flex-col gap-2 md:flex-row justify-between items-center">
         <NavLink to="/" exact className="font-bold text-white text-2xl">
           Fitness Tracker
         </NavLink>
-        <ul className="flex space-x-4">
+        <ul className="flex gap-1 flex-wrap space-x-4">
           <li>
             <NavLink to="/" className={getNavLinkClassName}>
               Dashboard
