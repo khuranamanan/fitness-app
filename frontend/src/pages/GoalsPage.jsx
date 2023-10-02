@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addGoal, deleteGoal, editGoal } from "../redux/actions";
+import { formatDate } from "../utils/formatDate";
 
 function GoalsPage() {
   const dispatch = useDispatch();
@@ -180,7 +181,7 @@ function GoalsPage() {
                     </p>
                     <p className="text-gray-600">
                       <span className="font-semibold">Target Date:</span>{" "}
-                      {goal.targetDate}
+                      {formatDate(goal.targetDate)}
                     </p>
                     <p className="text-gray-600">
                       <span className="font-semibold">Target Calories:</span>{" "}
