@@ -77,7 +77,7 @@ function GoalsPage() {
   }
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 w-full">
       <h2 className="text-2xl font-semibold">Goals Page</h2>
       <div className="flex gap-8 flex-col sm:flex-row">
         <form id="goal-form" className="w-96 max-w-sm">
