@@ -80,7 +80,7 @@ function GoalsPage() {
     <div className="flex flex-col gap-4 w-full">
       <h2 className="text-2xl font-semibold">Goals Page</h2>
       <div className="flex gap-8 flex-col sm:flex-row">
-        <form id="goal-form" className="w-96 max-w-sm">
+        <form id="goal-form" className="w-96 max-w-[90vw]">
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2">
               Goal Name:

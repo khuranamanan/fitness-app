@@ -44,7 +44,7 @@ function FoodPage() {
     <div className="flex flex-col gap-4 w-full">
       <h2 className="text-2xl font-semibold">Food Page</h2>
       <div className="flex gap-8 flex-col sm:flex-row">
-        <form className="w-96 max-w-sm">
+        <form className="w-96 max-w-[90vw]">
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2">
               Food Name:
